@@ -1,0 +1,125 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #4CAF50;
+  padding: 20px 0;
+  color: white;
+}
+
+header h1 {
+  display: inline-block;
+  margin: 0;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Special Styles for Sign In/Sign Up Buttons */
+nav ul li a.signup,
+nav ul li a.signin {
+  border-radius: 20px;
+  border: 2px solid white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a.signup:hover {
+  background-color: white;
+  color: #4CAF50;
+}
+
+nav ul li a.signin {
+  background-color: #fff;
+  color: #4CAF50;
+}
+
+nav ul li a.signin:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+/* Main Section Styles */
+main {
+  padding: 50px 0;
+}
+
+.onboarding {
+  background-color: #fff;
+  text-align: center;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.onboarding h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.onboarding p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.onboarding button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.onboarding button:hover {
+  background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+}
