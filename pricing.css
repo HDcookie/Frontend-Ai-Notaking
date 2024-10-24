@@ -1,0 +1,72 @@
+/* Pricing Section Styles */
+.pricing {
+  background-color: #fff;
+  text-align: center;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.pricing p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pricing-option {
+  background-color: #f4f4f4;
+  border: 2px solid #676767;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing-option h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.pricing-option p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.pricing-option ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.pricing-option ul li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.pricing-option button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.pricing-option button:hover {
+  background-color: #45a049;
+}

@@ -22,57 +22,79 @@ header {
   background-color: #4CAF50;
   padding: 20px 0;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header h1 {
-  display: inline-block;
   margin: 0;
 }
 
 nav {
-  display: inline-block;
-  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-nav ul {
+nav .navbar-brand {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav .navbar-brand img {
+  margin-right: 10px;
+}
+
+nav .links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav .links ul {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-nav ul li {
-  display: inline-block;
+nav .links ul li {
   margin-left: 20px;
 }
 
-nav ul li a {
+nav .links ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 12px;
 }
 
-nav ul li a:hover {
+nav .links ul li a:hover {
   text-decoration: underline;
 }
 
 /* Special Styles for Sign In/Sign Up Buttons */
-nav ul li a.signup,
-nav ul li a.signin {
+nav .links ul li a.signup,
+nav .links ul li a.signin {
   border-radius: 20px;
   border: 2px solid white;
   transition: background-color 0.3s, color 0.3s;
 }
 
-nav ul li a.signup:hover {
+nav .links ul li a.signup:hover {
   background-color: white;
   color: #4CAF50;
 }
 
-nav ul li a.signin {
+nav .links ul li a.signin {
   background-color: #fff;
   color: #4CAF50;
 }
 
-nav ul li a.signin:hover {
+nav .links ul li a.signin:hover {
   background-color: #45a049;
   color: white;
 }
